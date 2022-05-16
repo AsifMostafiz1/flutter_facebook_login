@@ -30,6 +30,7 @@ class _FacebookLoginPageState extends State<FacebookLoginPage> {
   _buildWidget() {
     if (isLoggedIn) {
       // String name = _userObject['name'];
+      //
       return Column(
         children: [
            ListTile(
